@@ -30,6 +30,17 @@ body {
 }
 
 /* ******* */
+/* 
+.example::-webkit-scrollbar {
+  display: none;
+} */
+.list::-webkit-scrollbar {
+  display: none;
+}
+
+.box::-webkit-scrollbar {
+  display: none;
+}
 
 .nav-bar {
   display: grid;
